@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>TG Market</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;font-family:Inter,Arial,sans-serif;color:#fff}body{background:#07070b;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:-20%;z-index:-2;background:radial-gradient(circle at 25% 20%,#3a2b68 0,transparent 35%),radial-gradient(circle at 75% 65%,#143b55 0,transparent 38%),radial-gradient(circle at 50% 100%,#27183f 0,transparent 42%);filter:blur(65px);opacity:.75}
+body:after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(5,6,10,.53);backdrop-filter:blur(16px)}
+.wrap{width:min(1080px,calc(100% - 32px));margin:auto}.top{padding:28px 0 12px;display:flex;justify-content:space-between;align-items:center}.logo{font-size:23px;font-weight:900;letter-spacing:.5px}.logo span{color:#7c6cff}.badge{font-size:12px;color:#a9aec0;border:1px solid #ffffff18;background:#ffffff08;padding:8px 12px;border-radius:99px}
+main{min-height:calc(100vh - 100px);display:flex;align-items:center;justify-content:center;padding:40px 0 70px}.grid{width:100%;display:grid;grid-template-columns:1fr 1fr;gap:20px}.card{min-height:255px;border:1px solid #ffffff16;background:linear-gradient(145deg,#ffffff0d,#ffffff05);border-radius:24px;padding:30px;box-shadow:0 24px 70px #0007;backdrop-filter:blur(20px);transition:.2s}.card:hover{transform:translateY(-4px);border-color:#8b7dff55}.wide{grid-column:1/-1;min-height:190px;display:flex;align-items:center;justify-content:space-between;gap:30px}.icon{width:50px;height:50px;border-radius:15px;display:grid;place-items:center;background:#7c6cff20;font-size:24px;margin-bottom:22px}.wide .icon{margin:0 0 12px}h1,h2{margin:0 0 12px}h2{font-size:27px}.desc{color:#a7adbd;line-height:1.6;margin:0 0 24px}.open{display:inline-flex;text-decoration:none;color:#fff;background:#7164ff;padding:12px 17px;border-radius:12px;font-weight:800}.open:hover{background:#8175ff}.support{font-size:22px;font-weight:800}.support span{color:#7d70ff}.foot{padding:0 0 25px;text-align:center;color:#656b7b;font-size:12px}
+@media(max-width:700px){.grid{grid-template-columns:1fr}.wide{grid-column:auto;display:block}.top{padding-top:20px}.card{min-height:220px}}
+</style></head>
+<body>
+<div class="wrap">
+<header class="top"><div class="logo">TG <span>MARKET</span></div><div class="badge">Telegram marketplace</div></header>
+<main><section class="grid">
+<article class="card"><div class="icon">◈</div><h2>Аккаунты Telegram</h2><p class="desc">Каталог аккаунтов с карточками, описанием и ценой. Здесь можно разместить свои объявления.</p><a class="open" href="#catalog">Открыть каталог</a></article>
+<article class="card"><div class="icon">★</div><h2>Отзывы</h2><p class="desc">Раздел для отзывов клиентов. Можно добавлять текст и фотографии подтверждений.</p><a class="open" href="#reviews">Смотреть отзывы</a></article>
+<article class="card wide"><div><div class="icon">✦</div><h2>Поддержка</h2><p class="desc">Есть вопрос по заказу или нужен аккаунт? Напиши напрямую в Telegram.</p></div><a class="open" href="https://t.me/Gimfipay" target="_blank" rel="noopener">Написать @Gimfipay</a></article>
+</section></main>
+<div id="catalog"></div><div id="reviews"></div><footer class="foot">© 2026 TG MARKET</footer>
+</div></body></html>
